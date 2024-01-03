@@ -2,7 +2,7 @@
  * File: 13-insert_number.c
  */
 
-#include "list.h"
+#include "lists.h"
 
 /**
  * insert_node - Inserts a number into a sorted singly-linked list.
