@@ -41,6 +41,7 @@ Checking positive with negative:
     >>> add_integer(2, -4)
     -2 
 
+
 Checking negative with positive:
 
     >>> add_integer(-6, 8)
