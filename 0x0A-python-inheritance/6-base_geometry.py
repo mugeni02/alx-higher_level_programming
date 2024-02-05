@@ -1,16 +1,15 @@
 #!/usr/bin/python3
-"""
-===================================
-module with class BaseGeometry
-===================================
+"""Module 6-base_geometry.
+Creates a class.
 """
 
 
 class BaseGeometry:
-    """BaseGeometry class"""
+    """Class with public instance method."""
 
-    @classmethod
     def area(self):
-        """method for calculated area"""
+        """Raises an Exception with the message
+        'area() is not implemented'.
+        """
 
-        raise Exception("area() is not implemented")
+        raise Exception('area() is not implemented')
