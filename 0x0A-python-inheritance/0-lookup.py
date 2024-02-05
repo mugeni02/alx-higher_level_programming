@@ -5,10 +5,6 @@ Finding a list of available attributes and methods of an object.
 
 
 def lookup(obj):
-    """Returns that list of attributes and methods.
+    """Return a list of available attributes and methods of an object."""
 
-    Args:
-        - obj: object to look into
-    """
-
-    return dir(obj)
+    return [attr for attr in dir(obj) if not callable(getattr(obj, attr)) or not attr.startswith("__")]
