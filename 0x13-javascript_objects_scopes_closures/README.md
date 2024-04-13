@@ -1,0 +1,1 @@
+ javasccript objects scopes closures
